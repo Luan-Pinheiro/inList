@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="logo.png">
+    <title>Está na lista</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header>
+        <h1>Está na lista</h1>
+    </header>
+    <section>
+        <div id="msg">
+            <p>Número (intervalo aberto entre 0 e 101):  
+                <input type="number" name="=numerobase" id="numerobase" min="1">
+            </p>
+            <p>
+                <input type="button" value="Inserir" onclick="verificar()">
+                <input type="button" value="Limpar" onclick="limpar()">
+                <input type="button" value="Finalizar" onclick="finalizar()">
+            </p>
+
+        </div>
+        <div id="res">
+            Preencha os campos acima para visualizar o resultado!
+        </div>
+        <div id="tab">
+            <select name="insercao" id="insertbar" size="10"></select>
+        </div>
+    </section>
+    <footer>
+        <p>&#64; luanp_azvd</p>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>

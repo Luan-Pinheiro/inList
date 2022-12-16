@@ -1,0 +1,37 @@
+body{
+    background-color:rgb(207, 67, 67);
+    font: normal 15pt Times;
+}
+header{
+    color: whitesmoke;
+    text-align: center;
+}
+section{
+    background-color: rgba(187, 81, 81, 0.842);
+    border-radius: 10px;
+    padding: 15px;
+    width: 450px;
+    margin: auto;
+    box-shadow: 6px 7px 10px rgba(0, 0, 0, 0.603);
+}
+div{
+    text-align: center;
+    color:rgba(54, 49, 49, 0.726);
+    padding: 10px;
+}
+footer{
+    color: whitesmoke;
+    text-align: center;
+    font: italic 13pt Times;
+}
+select{
+    background-color: rgba(255, 0, 0, 0.411) /*rgb(207, 67, 67)*/;
+    box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.295);
+    border-radius: 7px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    position: relative;
+    height: auto;
+    width: 285px;
+    align-self: start;
+}
